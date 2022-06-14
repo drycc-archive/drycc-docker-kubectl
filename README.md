@@ -8,7 +8,7 @@
 
 This project has been forked from [bitnami-docker-kubectl](https://github.com/bitnami/bitnami-docker-kubectl),  We mainly modified the dockerfile in order to build the images of amd64 and arm64 architectures. 
 
-Trademarks: This software listing is packaged by Bitnami. The respective trademarks mentioned in the offering are owned by the respective companies, and use of them does not imply any affiliation or [Container Image Registry](https://quay.io/repository/drycc-addons/kubectl)
+Trademarks: This software listing is packaged by Drycc. The respective trademarks mentioned in the offering are owned by the respective companies, and use of them does not imply any affiliation or [Container Image Registry](https://quay.io/repository/drycc-addons/kubectl)
 
 endorsement.
 
@@ -60,11 +60,11 @@ $ docker run --rm --name kubectl -v /path/to/your/kube/config:/.kube/config quay
 
 ## Contributing
 
-We'd love for you to contribute to this container. You can request new features by creating an [issue](https://github.com/bitnami/bitnami-docker-kubectl/issues), or submit a [pull request](https://github.com/bitnami/bitnami-docker-kubectl/pulls) with your contribution.
+We'd love for you to contribute to this container. You can request new features by creating an [issue](https://github.com/drycc-addons/drycc-docker-kubectl/issues), or submit a [pull request](https://github.com/drycc-addons/drycc-docker-kubectl/pulls) with your contribution.
 
 ## Issues
 
-If you encountered a problem running this container, you can file an [issue](https://github.com/bitnami/bitnami-docker-kubectl/issues/new). For us to provide better support, be sure to include the following information in your issue:
+If you encountered a problem running this container, you can file an [issue](https://github.com/drycc-addons/drycc-docker-kubectl/issues/new). For us to provide better support, be sure to include the following information in your issue:
 
 - Host OS and version
 - Docker version (`docker version`)

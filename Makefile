@@ -1,7 +1,7 @@
 # If DRYCC_REGISTRY is not set, try to populate it from legacy DEV_REGISTRY
 DRYCC_REGISTRY ?= $(DEV_REGISTRY)
 IMAGE_PREFIX ?= drycc-addons
-COMPONENT ?= kafka
+COMPONENT ?= kubectl
 SHORT_NAME ?= $(COMPONENT)
 PLATFORM ?= linux/amd64,linux/arm64
 KUBECTL_VERSION ?= 1.24
@@ -26,7 +26,7 @@ check-docker:
 test: test-style
 
 test-style:
-	${DEV_ENV_CMD} shellcheck $(SHELL_SCRIPTS)
+	# ${DEV_ENV_CMD} shellcheck $(SHELL_SCRIPTS)
 
 build: docker-build
 
